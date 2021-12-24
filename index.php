@@ -14,7 +14,7 @@ include('inc/header.php');
 
                                     <div class="col-sm-12 col-md-5 col-lg-5">
                                         <div class="home-photo">
-                                            <div class="hp-inner" style="background-image: url(img/kabir-main.jpg);">
+                                            <div class="hp-inner" style="background-image: url(img/kabir-second.jpg);">
                                             </div>
                                         </div>
                                     </div>

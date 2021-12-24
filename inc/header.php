@@ -6,13 +6,12 @@ include ('inc/function.php');
 <head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mahedi Kabir - Profile</title>
+    <title>Hasan Mahedi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Mahedi Kabir Profile"/>
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio"/>
-    <meta name="author" content="lmpixels"/>
+    <meta name="description" content="Hasan Mahedi (Kabir) is a TA at TTU. He was a journalist. He is also familiar with his voluntary activities and suggestions for higher studies."/>
+    <meta name="keywords" content="texas tech university, mahedi kabir, hasan mahedi, texus tech hasan mehedi, texas tech university hasan mahedi, media"/>
+    <meta name="author" content="Hasan Mahedi"/>
     <link rel="shortcut icon" href="favicon.ico">
-
 
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
