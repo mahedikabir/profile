@@ -19,6 +19,7 @@ include ('inc/function.php');
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/custom.css" type="text/css">
 
     <script src="js/modernizr.custom.js"></script>
 </head>
@@ -50,7 +51,7 @@ include ('inc/function.php');
                 <!-- Text Logo -->
                 <div class="text-logo">
                     <a href="index.php">
-                        <div class="logo-symbol">HM</div>
+                        <div class="logo-symbol"><img src="logo.png" alt=""></div>
                         <div class="logo-text">Hasan <span>Mahedi</span></div>
                     </a>
                 </div>
@@ -62,6 +63,7 @@ include ('inc/function.php');
                         <li class="menu-item <?php page_active('index.php'); page_active('/'); ?>"><a href="/">About Me</a></li>
                         <li class="menu-item <?php page_active('experiences.php'); ?>"><a href="experiences">Experiences</a></li>
                         <li class="menu-item <?php page_active('research.php'); ?>"><a href="research">Research</a></li>
+                        <li class="menu-item <?php page_active('blog.php'); ?>"><a target="_blank" class="disabled" href="blog">Blog</a></li>
                     </ul>
                 </div>
 

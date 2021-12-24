@@ -1,6 +1,6 @@
 <!-- Footer -->
 <footer class="site-footer clearfix">
-    <div class="footer-social">
+<!--    <div class="footer-social">
         <ul class="footer-social-links">
             <li>
                 <a href="#" target="_blank">Twitter</a>
@@ -14,10 +14,10 @@
                 <a href="#" target="_blank">Instagram</a>
             </li>
         </ul>
-    </div>
+    </div>-->
 
     <div class="footer-copyrights">
-        <p>© 2020 All rights reserved. LMPixels.</p>
+        <p>&copy; <?php echo date("Y");?> All rights reserved. Hasan Mahedi</p>
     </div>
 </footer>
 <!-- /Footer -->
@@ -27,13 +27,11 @@
 
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/imagesloaded.pkgd.min.js"></script>
-<script src='../../../../www.google.com/recaptcha/api.js'></script>
 <script src="js/bootstrap.min.js"></script>
 <script src='js/jquery.shuffle.min.js'></script>
 <script src='js/masonry.pkgd.min.js'></script>
 <script src='js/owl.carousel.min.js'></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
 <script src="js/jquery.googlemap.js"></script>
 <script src="js/validator.js"></script>
 <script src="js/main.js"></script>
