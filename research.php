@@ -71,14 +71,18 @@ include('inc/header.php');
 
                         <div class="certificate-item clearfix large-box-item">
                             <div class="certi-content">
-                                <div class="float-left">
-                                    <h5>Texas Tech University</h5>
-                                    <p>Guest Speaker</p>
-                                </div>
-                                <div class="float-right text-right">
-                                    <p>Lubbock, TX <br> September 29, 2021</p>
-                                </div>
-                                <div class="clearfix"></div>
+
+                                    <div class="float-left">
+                                        <h5>Texas Tech University</h5>
+                                        <p>Guest Speaker</p>
+                                    </div>
+                                    <div class="float-right text-right">
+                                        <p>Lubbock, TX <br> September 29, 2021</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+
+
+
                                 <div class="text-center">
                                     MCOM 2350 -002 & 003 Communicating in Global Society
                                     <br> <span class="font-italic">"Made in Bangladesh" – Bangladesh's Garments Industry and Current situation</span>

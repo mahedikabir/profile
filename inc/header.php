@@ -62,7 +62,7 @@ include ('inc/function.php');
                         <li class="menu-item <?php page_active('index.php'); page_active('/'); ?>"><a href="/">About Me</a></li>
                         <li class="menu-item <?php page_active('experiences.php'); ?>"><a href="experiences">Experiences</a></li>
                         <li class="menu-item <?php page_active('research.php'); ?>"><a href="research">Research</a></li>
-                        <li class="menu-item <?php page_active('blog.php'); ?>"><a target="_blank" class="disabled" href="blog">Blog</a></li>
+                        <li class="menu-item <?php page_active('blog.php'); ?>"><a class="disabled" href="blog">Blog</a></li>
                     </ul>
                 </div>
 

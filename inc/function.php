@@ -13,4 +13,9 @@ function page_active($url){
         echo '';
     }
 }
-?>
+
+$actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+$con = mysqli_connect("localhost", "root", "", "mahedikabir");
+
+

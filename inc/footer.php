@@ -1,23 +1,23 @@
 <!-- Footer -->
 <footer class="site-footer clearfix">
-<!--    <div class="footer-social">
-        <ul class="footer-social-links">
-            <li>
-                <a href="#" target="_blank">Twitter</a>
-            </li>
+    <!--    <div class="footer-social">
+            <ul class="footer-social-links">
+                <li>
+                    <a href="#" target="_blank">Twitter</a>
+                </li>
 
-            <li>
-                <a href="#" target="_blank">Facebook</a>
-            </li>
+                <li>
+                    <a href="#" target="_blank">Facebook</a>
+                </li>
 
-            <li>
-                <a href="#" target="_blank">Instagram</a>
-            </li>
-        </ul>
-    </div>-->
+                <li>
+                    <a href="#" target="_blank">Instagram</a>
+                </li>
+            </ul>
+        </div>-->
 
     <div class="footer-copyrights">
-        <p>&copy; <?php echo date("Y");?> All rights reserved. Hasan Mahedi</p>
+        <p>&copy; <?php echo date("Y"); ?> All rights reserved. Hasan Mahedi</p>
     </div>
 </footer>
 <!-- /Footer -->
@@ -39,6 +39,21 @@
         integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
         data-cf-beacon='{"rayId":"6c2a6a1bdf084649","version":"2021.12.0","r":1,"token":"94b99c0576dc45bf9d669fb5e9256829","si":100}'
         crossorigin="anonymous"></script>
+
+<!--<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.lazy').Lazy({
+            // your configuration goes here
+            scrollDirection: 'vertical',
+            effect: 'fadeIn',
+            visibleOnly: true,
+            onError: function (element) {
+                console.log('error loading ' + element.data('src'));
+            }
+        });
+    });
+</script>-->
 </body>
 
 </html>
