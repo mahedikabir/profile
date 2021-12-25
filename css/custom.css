@@ -22,3 +22,8 @@
     line-height: 37px !important;
     background-color: inherit !important;
 }
+
+.youtube-color:hover{
+    background-color: #c4302b !important;
+    color: white !important;
+}

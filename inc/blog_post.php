@@ -27,6 +27,12 @@ if (isset($_GET['post'])){
                         </div><!-- .entry-meta -->
 
                         <h2 class="entry-title"><?php echo $row_slug['title'] ?></h2>
+                        <div><?php echo $date?> , &nbsp; &nbsp;
+                            <span class="author vcard">
+                            <i class="fas fa-user"></i>
+                            <span> Hasan Mahedi</span>
+                        </span>
+                        </div>
                         <div class="post-tags">
                       <span class="tags">
                           <?php
