@@ -66,7 +66,7 @@ include('inc/header.php');
 
                             <div class="timeline-item clearfix">
                                 <h5 class="item-period ">Nov'14 – 2019</h5>
-                                <span class="item-company">Bhloanondo Night High School</span>
+                                <span class="item-company">Bholanondo Night High School</span>
                                 <h4 class="item-title">Voluntary teacher</h4>
                                 <p>A night school for unprivileged students who works in various fields. I used to help the students in English and General
                                     Knowledge classes</p>
