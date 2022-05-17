@@ -66,7 +66,7 @@ include('inc/header.php');
 
 
                 <div class="row">
-                    <div class=" col-xs-12 ">
+                    <div class="col-md-12 ">
 
                         <div class="p-20"></div>
 
@@ -87,7 +87,7 @@ include('inc/header.php');
 
 
                 <div class="row">
-                    <div class=" col-xs-12 col-sm-6">
+                    <div class=" col-md-6 ">
 
                         <div class="p-20"></div>
 
@@ -116,6 +116,7 @@ include('inc/header.php');
                         </div>
 
                     </div>
+                </div>
 
                     <!--<div class=" col-xs-12 col-sm-6 ">
 
@@ -138,7 +139,7 @@ include('inc/header.php');
 
 
                     <div class="row">
-                        <div class=" col-xs-12 ">
+                        <div class=" col-md-12 ">
 
                             <div class="p-20"></div>
 
