@@ -40,7 +40,7 @@ include('inc/header.php');
                                                 <a href="https://www.linkedin.com/in/mahehasan" target="_blank" class="btn btn-primary font-weight-bolder"><span>Linked</span><img
                                                             src="https://img.icons8.com/external-justicon-flat-justicon/14/000000/external-linkedin-social-media-justicon-flat-justicon.png"/></a>
                                                 <a href="https://www.youtube.com/c/MahediKabir/featured" class="btn btn-secondary youtube-color" target="_blank"><img src="youtube.png"
-                                                                                                                                                        alt="Youtube">Youtube</a>
+                                                                                                                                                                      alt="Youtube">Youtube</a>
                                             </div>
                                         </div>
                                     </div>
