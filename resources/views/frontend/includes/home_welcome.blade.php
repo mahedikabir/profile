@@ -1,0 +1,1 @@
+Shahjalal University Press Club, a platform of journalists at Shahjalal University of Science and Technology (SUST) campus, is one of the dynamic organizations of campus journalists all over the country that exclusively has been trying for the betterment of journalism at SUST campus as well as promoting multiple issues of journalism in respective arena.

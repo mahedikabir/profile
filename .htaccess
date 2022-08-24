@@ -1,12 +1,3 @@
-ErrorDocument 404 https://mahedikabir.com/404
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-SSL} !on
-RewriteCond %{HTTP_HOST} ^mahedikabir\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.mahedikabir\.com$
-RewriteRule ^/?$ "https\:\/\/mahedikabir\.com\/" [R=301,L]
 
 
 # php -- BEGIN cPanel-generated handler, do not edit
