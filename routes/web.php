@@ -28,7 +28,7 @@ Route::get('/', 'FrontendController@index')->name('index');
 Route::get('/experiences', 'FrontendController@experiences')->name('experiences');
 Route::get('/research', 'FrontendController@research')->name('research');
 Route::get('/blog', 'FrontendController@blog')->name('blog');
-Route::get('/blog/{slug}', 'FrontendController@blogView')->name('blogshow');
+Route::get('/blog/{post}', 'FrontendController@blogView')->name('blogshow');
 
 Auth::routes();
 

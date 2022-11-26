@@ -22,15 +22,15 @@
                                 <div class="item">
                                     <div class="blog-card">
                                         <div class="media-block">
-                                            <a href="{{route('blogshow', $post->slug)}}">
-                                                <img src="{{asset('/storage/image/'.$post->image)}}" alt="{{$post->title}}" />
+                                            <a href="{{route('blogshow', $post->post_name)}}">
+                                                <img src="{{url($post->guid)}}" alt="{{$post->post_title}}" />
                                                 <div class="mask"></div>
                                             </a>
                                         </div>
                                         <div class="post-info">
-                                            <div class="post-date">{{$post->created_at}}</div>
-                                            <a href="{{route('blogshow', $post->slug)}}">
-                                                <h4 class="blog-item-title">{{$post->title}}</h4>
+                                            <div class="post-date">{{$post->post_date}}</div>
+                                            <a href="{{route('blogshow', $post->post_name)}}">
+                                                <h4 class="blog-item-title">{{$post->post_title}}</h4>
                                             </a>
                                         </div>
                                     </div>

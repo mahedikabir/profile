@@ -11,8 +11,8 @@
 
                         <header class="entry-header">
 
-                            <h2 class="entry-title">{{$post->title}}</h2>
-                            <div>{{$post->created_at->diffForHumans()}} , &nbsp; &nbsp;
+                            <h2 class="entry-title">{{$post->post_title}}</h2>
+                            <div><i class="fas fa-clock"></i> {{\Carbon\Carbon::parse($post->post_date)->diffForHumans()}} , &nbsp; &nbsp;
                                 <span class="author vcard">
                             <i class="fas fa-user"></i>
                             <span> Hasan Mahedi</span>
@@ -21,8 +21,8 @@
                         </header><!-- .entry-header -->
 
                         <div class="post-thumbnail">
-                            <img class="mx-auto d-block" src="{{asset('/storage/image/'.$post->image)}}"
-                                 alt="{{$post->title}}"/>
+                            <img class="mx-auto d-block" src="{{url($post->guid)}}"
+                                 alt="{{$post->post_title}}"/>
                         </div>
 
                         <div class="post-content">
@@ -30,9 +30,7 @@
 
                                 <div class="row">
                                     <div class=" col-xs-12 col-sm-12 ">
-                                        @php
-                                            echo "$post->body"
-                                        @endphp
+                                        @php echo $post->post_content; @endphp
 
                                     </div>
                                 </div>
@@ -45,7 +43,7 @@
                         <span class="entry-date">
                           <a href="#" rel="bookmark">
                             <i class="far fa-clock"></i>
-                            <time class="entry-date" datetime="2020-04-04T08:29:37+00:00"> {{$post->created_at->format('l, jS F, Y')}}</time>
+                            <time class="entry-date" datetime="2020-04-04T08:29:37+00:00"> {{ \Carbon\Carbon::parse($post->post_date)->format('l, jS F, Y')}}</time>
                           </a>
                         </span>
 
